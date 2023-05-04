@@ -1,0 +1,33 @@
+<header class="main-header">
+    <h1 class="main-header__title">
+        <span class="main-header__title--blue">Proway</span><span class="main-header__title--orange">Computers</span>
+    </h1>
+    <div class="conteiner-menu">
+        <nav class="main-header__menu">
+            <ul class="container-menu">
+                <li>
+                    <a href="">Produtos</a>
+                </li>            
+                <li>
+                    <a href="/carrinho"><i class="fa-solid fa-cart-shopping"> Carrinho <span class="badge-carrinho">{{carrinhoService.obtemCarrinho().length}}</span> </i></a>
+                </li>
+                <li>
+                    <a href="/contato">Contato</a>
+                </li>
+                <li>
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                </li>
+                <li>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                </li>
+                <li>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                </li>
+                <li>
+                    <a href=""> <i class="fa-brands fa-linkedin"></i></a>
+                </li>
+            </ul>
+        </nav>
+        <app-barra-pesquisa></app-barra-pesquisa>
+    </div>
+</header>
